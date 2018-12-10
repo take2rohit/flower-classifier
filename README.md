@@ -1,6 +1,9 @@
 
 # <u> Binary classification using Logistic Regression model</u>
 
+### Aim
+It basically classifies whether a given image is of Sunflower or of rose.
+
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
 
