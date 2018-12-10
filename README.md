@@ -111,7 +111,7 @@ Y_test = Y_test.float().cuda()
 
 $sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$
 
-!(https://cdn-images-1.medium.com/max/1600/1*RqXFpiNGwdiKBWyLJc_E7g.png)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*RqXFpiNGwdiKBWyLJc_E7g.png)
 
 
 ```python
