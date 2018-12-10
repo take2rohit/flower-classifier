@@ -7,19 +7,27 @@ It basically classifies whether a given image is of Sunflower or of rose
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
 
+### Technical Details
+1. Model Used: *Logistic Regression*
+2. Training Dataset Size: *1200*
+3. Test Dataset Size: *90*
+4. Library used: *Pytorch, MatPlotLib, TorchVision,Random*
+5. No. of epocs: *2000*
+6. Learning rate: *0.01*
+7. Training accuracy: *94.08 %*
+8. Test accuracy: *87.77 %*
 ### Description
 Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised.
 
 Deep learning models are loosely related to information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain.
 
-The below code is written from scratch using pytorch for dataloading and GPU acceleration. Logistic regression was used for this training.
+The below code is written from scratch using pytorch for dataloading and GPU acceleration.
 
 ```python
 import matplotlib.pyplot as plt
 import torch
 from torchvision import datasets, transforms
 import helper
-from time import sleep
 import numpy as np
 from random import randint
 ```
