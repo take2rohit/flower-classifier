@@ -1,21 +1,33 @@
 
 # <u> Binary classification using Logistic Regression model</u>
 
+### Aim
+It basically classifies whether a given image is of Sunflower or of rose
+
 ### Code Requirements
 You can install Conda for python which resolves all the dependencies for machine learning.
 
+### Technical Details
+1. Model Used: *Logistic Regression*
+2. Training Dataset Size: *1200*
+3. Test Dataset Size: *90*
+4. Library used: *Pytorch, MatPlotLib, TorchVision,Random*
+5. No. of epocs: *2000*
+6. Learning rate: *0.01*
+7. Training accuracy: *94.08 %*
+8. Test accuracy: *87.77 %*
 ### Description
 Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised.
 
 Deep learning models are loosely related to information processing and communication patterns in a biological nervous system, such as neural coding that attempts to define a relationship between various stimuli and associated neuronal responses in the brain.
 
+The below code is written from scratch using pytorch for dataloading and GPU acceleration.
 
 ```python
 import matplotlib.pyplot as plt
 import torch
 from torchvision import datasets, transforms
 import helper
-from time import sleep
 import numpy as np
 from random import randint
 ```
@@ -111,7 +123,7 @@ Y_test = Y_test.float().cuda()
 
 $sigmoid( w^T x + b) = \frac{1}{1 + e^{-(w^T x + b)}}$
 
-![image.png](attachment:image.png)
+![alt text](https://cdn-images-1.medium.com/max/1600/1*RqXFpiNGwdiKBWyLJc_E7g.png)
 
 
 ```python
@@ -121,14 +133,7 @@ def sigmoid(x):
 
 ## Forward Propagation:
 
-- Get X
-- Compute $A = \sigma(w^T X + b) = (a^{(1)}, a^{(2)}, ..., a^{(m-1)}, a^{(m)})$
-- Calculate the cost function: $J = -\frac{1}{m}\sum_{i=1}^{m}y^{(i)}\log(a^{(i)})+(1-y^{(i)})\log(1-a^{(i)})$
-
-Formulas:
-
-$$ \frac{\partial J}{\partial w} = \frac{1}{m}X(A-Y)^T\tag{7}$$
-$$ \frac{\partial J}{\partial b} = \frac{1}{m} \sum_{i=1}^m (a^{(i)}-y^{(i)})\tag{8}$$
+![alt text](https://datascienceplus.com/wp-content/uploads/2017/02/4.png)
 
 
 ```python
