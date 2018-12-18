@@ -12,7 +12,7 @@ You can install Conda for python which resolves all the dependencies for machine
 2. Training Dataset Size: *1300*
 3. Test Dataset Size: *90*
 4. Library used: *Pytorch, MatPlotLib, TorchVision,Random*
-5. Learning rate: *0.01*
+5. Initial learning rate: *0.01*
 6. Training accuracy: *94.08 % (To be updated)*
 7. Test accuracy: *87.77 % (To be updated)* 
 8. No. of epochs: *5*
