@@ -27,7 +27,7 @@ Deep learning models are loosely related to information processing and communica
 The  code is written from scratch using pytorch for dataloading and GPU acceleration.
 
 ### Algorithms used;
-1. Gradient Descent
+1. Gradient Descent (Batch, Mini-batch, Stochastic)
 2. Gradient Descent with Momentum
 3. Gradient Descent with RMSprop
 4. Gradient Descent with Adam
