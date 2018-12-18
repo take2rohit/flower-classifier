@@ -12,10 +12,10 @@ You can install Conda for python which resolves all the dependencies for machine
 2. Training Dataset Size: *1200*
 3. Test Dataset Size: *90*
 4. Library used: *Pytorch, MatPlotLib, TorchVision,Random*
-5. No. of epocs: *2000*
-6. Learning rate: *0.01*
-7. Training accuracy: *94.08 %*
-8. Test accuracy: *87.77 %*
+5. Learning rate: *0.01*
+6. Training accuracy: *94.08 %*
+7. Test accuracy: *87.77 %*
+
 ### Description
 Deep learning (also known as deep structured learning or hierarchical learning) is part of a broader family of machine learning methods based on learning data representations, as opposed to task-specific algorithms. Learning can be supervised, semi-supervised or unsupervised.
 
